@@ -1,7 +1,7 @@
 //const Telegraf = require('telegraf')
 const { Telegraf } = require('telegraf')
 
-const bot = new Telegraf('1525963003:AAF-5j5jUQwx7JWwGfMfsrkgVqYJXPQ_xr8')
+const bot = new Telegraf('xxxxxxx')
 
 bot.start((ctx) => {
     ctx.reply(`Bienvenido ${ctx.from.first_name}, en que puedo ayudarte?, si no sabes por donde empezar te recomiento que uses el comando /help`);
@@ -18,51 +18,51 @@ bot.command('RichWebLatamHomo',(ctx) => {
     //comandos.forEach(function(Element){
     //    ctx.reply(Element);
     //});
-    ctx.reply('http://ardc4svdwa003.latam1.prosegur.local/m4richwebnet.html');
+    ctx.reply('xxxxxx');
 })
 
 bot.command('RichWebLatamProd',(ctx) => {
-    ctx.reply('http://meta4.latam1.prosegur.local/m4richwebnet.html');
+    ctx.reply('xxxxxx');
 })
 
 bot.command('RichWebGlobalDh',(ctx) => {
-    ctx.reply('http://meta4predh.prosegur.local/m4updateservices/m4richwebnet.html');
+    ctx.reply('xxxxxx');
 })
 
 bot.command('RichWebGlobalHomo',(ctx) => {
-    ctx.reply('http://meta4pre.prosegur.local/m4updateservices/m4richwebnet.html');
+    ctx.reply('xxxxxx');
 })
 
 bot.command('RichWebGlobalProd',(ctx) => {
-    ctx.reply('https://meta4.prosegur.local/m4richwebnet.html');
+    ctx.reply('xxxxxx');
 })
 
 bot.command('PortalGlobalDh',(ctx) => {
-    ctx.reply('http://portalpredh.prosegur.local/sse_generico/generico_login_nuevo.jsp');
+    ctx.reply('xxxxxx');
 })
 
 bot.command('PortalGlobalHomo',(ctx) => {
-    ctx.reply('http://portalpre.prosegur.local/sse_generico/generico_login_nuevo.jsp');
+    ctx.reply('xxxxxx');
 })
 
 bot.command('PortalGlobalProd',(ctx) => {
-    ctx.reply('https://portal.prosegur.local/sse_generico/generico_login_nuevo.jsp');
+    ctx.reply('xxxxxx');
 })
 // /BaseLatamHomo\n/BaseGlobalDesa\n/BaseGlobalDH\n/BaseGlobalHomo
 bot.command('BaseLatamHomo',(ctx) => {
-    ctx.reply('Usuario: USER_HRPRODAR\nContraseña: migracion ');
+    ctx.reply('xxxxxx');
 })
 
 bot.command('BaseGlobalDesa',(ctx) => {
-    ctx.reply('Usuario: M4GLOBAL\nContraseña: Mooi2015 ');
+    ctx.reply('xxxxxx');
 })
 
 bot.command('BaseGlobalDH',(ctx) => {
-    ctx.reply('Usuario: AR00111255[M4GLOBAL]\nContraseña: GCJyWdB#vv ');
+    ctx.reply('xxxxxx ');
 })
 
 bot.command('BaseGlobalHomo',(ctx) => {
-    ctx.reply('Usuario: AR00111281[M4GLOBAL]\nContraseña: IZQavhpFFMRK ');
+    ctx.reply('xxxxxx ');
 })
 
 // Escuchar otros textos
